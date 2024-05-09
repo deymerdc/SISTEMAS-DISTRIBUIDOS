@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio</title>
+    <link rel="shortcut icon" href="./assets/boostrap.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    
+    <!-- menu de navegacion -->
+
+    <nav class="menu navbar navbar-expand-lg position-sticky top-0 z-3  ">
+        <div class=" menuM container-fluid">
+          <a class="navbar-brand text-primary fs-3 fw-bold text" href="#">MiPortfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fs-5" aria-current="page" href="#">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active fs-5" aria-current="page" href="#seccion-dos">Proyectos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active fs-5" aria-current="page" href="#seccion-tres">SobreMI</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active fs-5" aria-current="page" href="#footer">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- seccion uno -->
+<section class="seccion-uno d-flex flex-column justify-content-center align-items-center gap-3" id="seccion-uno">
+  <img class="img rounded-circle" src="./imagenes/IMG_20230422_152339.jpg" alt="">
+  <h2 class="text-primary">Daymer Cabrera Quispe</h2>
+  <h2>Hola soy un programador de rango junior ya que actualmente me estoy especializando mas en html</h2>
+  <div class="d-flex gap-3">
+      <a href="https://github.com/deymerdc" class="btn btn-primary" target="_blank">GITHUB</a>
+      <a href="https://twitter.com/" class="btn btn-primary" target="_blank">TWITTER</a>
+  </div>
+</section>
+
+
+      <!-- seccion dos -->
+
+      <section class="seccion-dos p-5 d-flex flex-column bg-primary" id="seccion-dos">
+        <h2 class="text-white m-4 text-center">Proyectos</h2>
+
+        <div class="cards d-flex flex-wrap gap-5 justify-content-center align-items-center ">
+            <div class="card" style="width: 18rem;">
+                <img src="./imagenes/54275D65-8AC9-4C81-A394-C5E8D1F7AB2F.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Calculadora en Python</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/cine.jpeg" class="card-img-top" alt="..." width="160" height="160">
+                <div class="card-body">
+                  <h5 class="card-title">CRUD para cines</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/consolasjuegos-01_xl.png" class="card-img-top" alt="..." width="150" height="150">
+                <div class="card-body">
+                  <h5 class="card-title">Participacion en creacion de video juegos</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/base-datos-info-1.png" class="card-img-top" alt="..." width="160" height="160">
+                <div class="card-body">
+                  <h5 class="card-title">Base de datos</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/desarrollo-apps-moviles.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Creacion de APPs</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+      </section>
+
+
+      <!-- seccion tres -->
+
+
+      <section class="seccion-tres d-flex justify-content-center align-items-center flex-wrap gap-4" id="seccion-tres">
+
+        <img class="img rounded-circle " src="./imagenes/IMG_20230422_152339.jpg" alt="">
+        <p class="parrafo">Mi nmbre es Daymer Cabrera quispe, estudie ingenieria de sistemas en la universidad nacional de Moquegua, en todo este tiempo aprendi mucho sobre mis docentes, y sobre lenguajes de programacion, aprendi lo que es C++, Python, SQL, HTML, CSS.</p>
+
+      </section>
+
+
+      <!-- seccion cuatro -->
+
+      <section class="tecno d-flex justify-content-center align-items-center gap-4 flex-wrap bg-primary">
+
+        <div>
+            <img width="90px" src="./imagenes/html.svg" alt="">
+        </div>
+
+        <div>
+            <img width="90px"  src="./imagenes/css.svg" alt="">
+        </div>
+
+        <div>
+            <img width="90px"  src="./imagenes/js.svg" alt="">
+        </div>
+
+        <div>
+            <img width="90px"  src="./imagenes/typ.svg" alt="">
+        </div>
+
+        <div>
+            <img width="90px"  src="./imagenes/psql.svg" alt="">
+        </div>
+
+      </section>
+
+
+      <footer class="footer d-flex justify-content-center align-items-center gap-3 " id="footer">
+
+        <a href="#">
+            <img width="30px" src="./imagenes/linkedin.svg" alt="">
+        </a>
+        <a href="#">
+            <img width="30px" src="./imagenes/github.svg" alt="">
+        </a>
+
+        <a href="#">
+            <img width="30px" src="./imagenes/instagram.svg" alt="">
+        </a>
+
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
